@@ -1,22 +1,17 @@
 
  
 import os
-2 2
- 
- 
-3 3
+
  
 from aiohttp import web
-4 4
+
  
 from telegram import Update
-5 5
  
 from telegram.ext import Application, ApplicationBuilder
-6 6
  
  
-7 7
+
  
 from .config import load_settings
 8
