@@ -1,20 +1,17 @@
 config.py
 /workspace/app
-+6
--1
-1 1
+
  
 import os
-2 2
  
 from dataclasses import dataclass
-3 3
+
  
  
-4 4
+
  
  
-5 5
+
  
 def _getenv(name: str, default: str | None = None) -> str | None:
 6 6
@@ -223,9 +220,7 @@ def load_settings() -> Settings:
  
 ai.py
 /workspace/app
-+53
--0
-1
+
 +
 import json
 2
@@ -388,7 +383,7 @@ storage.py
 /workspace/app
 +109
 -0
-1 1
+
  
 import asyncio
 2
@@ -976,8 +971,7 @@ class SettingsStore:
 main.py
 /workspace/app
 +7
--1
-1 1
+
  
 import os
 2 2
@@ -1197,7 +1191,7 @@ handlers.py
 /workspace/app
 +291
 -4
-1 1
+
  
 import asyncio
 2
@@ -2725,7 +2719,7 @@ def setup_application(
 /workspace
 +3
 -0
-1 1
+
  
 TELEGRAM_BOT_TOKEN=123456:ABCDEF
 2 2
@@ -2965,7 +2959,7 @@ config.py
 /workspace/app
 +4
 -0
-1 1
+
  
 import os
 2 2
@@ -3215,7 +3209,7 @@ market_data.py
 /workspace/app
 +78
 -0
-1
+
 +
 import json
 2
@@ -3453,7 +3447,7 @@ ict.py
 /workspace/app
 +64
 -0
-1
+
 +
 from dataclasses import dataclass
 2
@@ -3649,7 +3643,7 @@ handlers.py
 /workspace/app
 +69
 -0
-1 1
+
  
 import asyncio
 2 2
@@ -5432,7 +5426,7 @@ main.py
 /workspace/app
 +12
 -1
-1 1
+
  
 import os
 2 2
@@ -5691,7 +5685,7 @@ polling.py
 /workspace/app
 +12
 -1
-1 1
+
  
 from telegram.ext import Application, ApplicationBuilder
 2 2
@@ -5800,7 +5794,7 @@ if __name__ == "__main__":
 /workspace
 +2
 -0
-1 1
+
  
 TELEGRAM_BOT_TOKEN=123456:ABCDEF
 2 2
@@ -5840,7 +5834,6 @@ README.md
 /workspace
 +3
 -0
-1 1
  
 # Telegram bot (webhook)
 2 2
